@@ -18,6 +18,9 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+import Aos from "aos"
+import 'aos/dist/aos.css'
+
 function App() {
   const [load, upadateLoad] = useState(true);
 
@@ -25,15 +28,20 @@ function App() {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
+   
+    Aos.init({duration:2300})
+    return () => {clearTimeout(timer)
 
-    return () => clearTimeout(timer);
+      
+    };
+    
   }, []);
 
   return (
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <Navbar />
+        <Navbar  />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />

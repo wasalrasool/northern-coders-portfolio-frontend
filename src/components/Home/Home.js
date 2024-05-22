@@ -25,7 +25,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={7} className="home-header" data-aos="fade-right">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -45,7 +45,7 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 20 }} data-aos="fade-left">
               <img
                 src={homeLogo}
                 alt="home pic"
@@ -86,16 +86,16 @@ function Home() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col> */}
         </Row>
-        <h1 className="project-heading">
+        <h1 className="project-heading" data-aos="fade-down">
           Popular <strong className="purple">Technologies </strong> we work on
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
+        <h1 className="project-heading" data-aos="fade-down">
           <strong className="purple">Tools</strong> We use
         </h1>
-        <Toolstack />
+        <Toolstack/>
 
         {/* <Github /> */}
       </Container>

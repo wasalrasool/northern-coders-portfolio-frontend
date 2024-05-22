@@ -14,14 +14,14 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h1 className="project-heading" data-aos="fade-down">
           Our Recent work <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: "white" }} data-aos="fade-down">
           Here are a few projects We've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" data-aos="flip-left">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
@@ -32,7 +32,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" data-aos="flip-right">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -43,7 +43,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" data-aos="flip-left">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
