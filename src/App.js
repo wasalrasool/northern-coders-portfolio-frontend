@@ -29,7 +29,7 @@ function App() {
       upadateLoad(false);
     }, 1200);
    
-    Aos.init({duration:2300})
+    Aos.init({duration:2200})
     return () => {clearTimeout(timer)
 
       
@@ -47,7 +47,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          {/* <Route path="/resume" element={<Resume />} /> */}
           <Route path="/contact" element={<ContactUs />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
