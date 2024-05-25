@@ -35,7 +35,7 @@ function Home() {
 
               <h1 className="heading-name">
                 We are 
-                <strong className="main-name"> Northern Coders</strong>
+                <strong className="main-name"> Wasal Dev</strong>
               </h1>
 
               <h5>Innovative Solutions, Global Reach</h5>

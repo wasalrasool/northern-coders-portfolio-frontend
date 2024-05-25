@@ -119,7 +119,7 @@ function NavBar() {
                 className="fork-btn-inner"
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                solutions@northerncoders.com
+                solutions@wasaldev.com
               </Button>
             </Nav.Item>
           </Nav>

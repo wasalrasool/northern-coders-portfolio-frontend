@@ -21,7 +21,7 @@ function Home2() {
               <b className="purple"> Who we are ? </b>
             </h1>
             <p className="home-about-body">
-            Transforming ideas into digital realities across the globe. At Northern Coders, we blend cutting-edge technology with unparalleled expertise to deliver bespoke software solutions that drive your success. Join our global network of innovators and let's create something extraordinary together
+            Transforming ideas into digital realities across the globe. At Wasal Dev, we blend cutting-edge technology with unparalleled expertise to deliver bespoke software solutions that drive your success. Join our global network of innovators and let's create something extraordinary together
               <br />
               <br />See our projects, We deliver <b className="purple">gifts</b> to everyone working with us
             
