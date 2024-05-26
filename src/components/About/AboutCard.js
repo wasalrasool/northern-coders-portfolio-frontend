@@ -8,8 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            We are a team of professional working to provide <span className="purple">custom contact</span> to our customers 
-            from <span className="purple"> Bhubaneswar, India.</span>
+            We are a team of professional working to provide <span className="purple">custom solutions</span> to our customers 
+            from <span className="purple"> all over the world.</span>
             <br />
             Currently we are expanding our boundaries to deal with all cultural clients.
             <br />
