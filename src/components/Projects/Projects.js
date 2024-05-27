@@ -55,7 +55,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card" data-aos="flip-right">
             <ProjectCard
-              imgPath={editor}
+              imgPath={leaf}
               isBlog={false}
               title="Adalat Online"
               description="Based in Australia. We worked on its Dynamic report binding generated from web side. Every time it generate something different depends on your needs. Overall a wonderfull successfull project."
