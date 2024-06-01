@@ -39,7 +39,7 @@ function Projects() {
               title="Gersa Internet Village Company Profile"
               description="They are business solution company we built their company pages to showcase their projects."
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://northerncoders-worksample0.netlify.app/"
+              demoLink="https://wasaldev-worksample0.netlify.app/"
             />
           </Col>
 
