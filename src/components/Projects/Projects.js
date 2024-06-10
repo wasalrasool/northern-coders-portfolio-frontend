@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
+import eccapp from "../../Assets/Projects/ecc-app.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -59,6 +60,16 @@ function Projects() {
               isBlog={false}
               title="Adalat Online"
               description="Based in Australia. We worked on its Dynamic report binding generated from web side. Every time it generate something different depends on your needs. Overall a wonderfull successfull project."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://adalatonline.com/"              
+            />
+          </Col>
+          <Col md={4} className="project-card" data-aos="flip-right">
+            <ProjectCard
+              imgPath={eccapp}
+              isBlog={false}
+              title="Eccomerce Mobile App | Flutter"
+              description="It's a wonderfull completely functional eccomerce app designed for Android/IOS using latest flutter technologies. It integrated multiple API calls from realtime inventory collected by scraping multiple sites."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://adalatonline.com/"              
             />

@@ -36,7 +36,7 @@ function Home2() {
               <br />
               <br />
               Contact Us at  
-              <b className="purple"> contact@northernCoders.com</b> Our expert and friendly team will guide you to transform your idea into stunning technology
+              <b className="purple"> contact@wasaldev.com</b> Our expert and friendly team will guide you to transform your idea into stunning technology
               <i>
               <br />
               <br />
